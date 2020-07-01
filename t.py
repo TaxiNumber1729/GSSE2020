@@ -10,7 +10,7 @@ label.pack()
 
 
 def graph():
-    deaths= np.random.normal(35000,100,10000)
+    deaths= np.random.normal(35000,100,250)
     plt.hist(deaths, 50)
     plt.xlabel('Number of Deaths')
     plt.ylabel('Percentage of Deaths Caused by Traffic Accidents')
